@@ -52,4 +52,4 @@ And you'll get:
 </html>
 ```
 
-(note that the <link> tag is removed)
+(note that the link tag is removed)
