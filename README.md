@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="foo">
-            Bla bla bla, <span id="bar">he said "foo" and then sat down</span> bla bla<br/>
+            The rain in <span id="bar">Spain</span> falls mainly in the plain.<br/>
         </div>
     </body>
 </html>
@@ -37,4 +37,18 @@ System.out.println( StylesheetApplier.processFile( new File( "/home/petev/basict
 
 And you'll get:
 
-
+```html
+<!DOCTYPE html>
+<html>
+    <!-- comment -->
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" type="text/css" href="/home/petev/basictest.css" />
+    </head>
+    <body>
+        <div class="foo" style="font-face: arial">
+            The rain in <span id="bar" style="background-color: red;">Spain</span> falls mainly in the plain.<br/>
+        </div>
+    </body>
+</html>
+```
