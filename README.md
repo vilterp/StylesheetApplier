@@ -43,7 +43,6 @@ And you'll get:
     <!-- comment -->
     <head>
         <title>Test</title>
-        <link rel="stylesheet" type="text/css" href="/home/petev/basictest.css" />
     </head>
     <body>
         <div class="foo" style="font-face: arial">
@@ -52,3 +51,5 @@ And you'll get:
     </body>
 </html>
 ```
+
+(note that the <link> tag is removed)
